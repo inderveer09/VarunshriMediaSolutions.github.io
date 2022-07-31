@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* logo and image */
+#logo {
+    margin: 10px 34px;
+
+}
+
+#logo img {
+    margin: 3px 6px;
+    height: 79px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+/* list styling */
+/* navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+#navbar ul {
+    display: flex;
+
+}
+
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    padding: 5px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 27px;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+/* home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 578px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home::before {
+    content: "";
+    background: url('../back2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 744px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .65;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+    font-size: 76px;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.services-container {
+    font-size: 33px;
+    text-align: center;
+    padding: 11px 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* services section */
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: #e1e1e1;
+    border: 10px solid white;
+}
+
+#services .box img {
+    margin: auto;
+    display: block;
+    height: 160px;
+    border: 8px solid white;
+    border-radius: 8px;
+}
+
+#services .box p {
+    font-size: 26px;
+}
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 3.5rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 1.9rem;
+    padding: 20px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.text-big {
+    font-size: 30px;
+
+}
+
+.text-small {
+    font-size: 23px;
+}
+
+.secright {
+    /* height: 395px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.secleft {
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 56px;
+}
+
+.thumbnail img {
+    width: 445px;
+    border: 9px solid black;
+    margin: 5px;
+
+}
+
+/* client section  */
+#client-section {
+    
+    position: relative;
+}
+
+
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img {
+    height: 124px;
+}
+
+.client-item {
+    padding: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
