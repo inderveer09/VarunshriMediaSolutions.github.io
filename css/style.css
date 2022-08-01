@@ -102,7 +102,7 @@
 #home p {
     color: black;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 47px;
 }
 
 .services-container {
@@ -145,7 +145,7 @@
 /* utility classes */
 .h-primary {
     font-size: 3.5rem;
-    padding: 12px;
+    padding: 14px;
 }
 
 .h-secondary {

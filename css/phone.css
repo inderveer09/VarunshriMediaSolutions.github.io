@@ -1,15 +1,26 @@
 #logo img {
-    height: 52px;
+    height: 30px;
 }
 
 #navbar ul li a {
-    font-size: 19px;
-    padding: 3px 6px;
+    font-size: 13px;
+    padding: 1px 11px;
+}
+#navbar::before {
+    /* content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1; */
+    opacity: 0.35;
 }
 
 
 #home {
-padding: 140px;  
+padding: 121px;  
     height: 66px;
 
 }
@@ -23,10 +34,10 @@ padding: 140px;
 }
 
 .h-primary {
-    font-size: 17px;
+    font-size: 15px;
 }
 .h-secondary{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #home h1 {
@@ -47,15 +58,18 @@ padding: 140px;
     height: 90px;
 }
 #services .box p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #clients {
    flex-wrap: wrap;
 }
 #clients img {
-   width: 95px;
-   padding: 0px 0px;
+   width: 137px;
+   padding: 0px 4px;
+}
+.client-item {
+    padding: 19px;
 }
 
 #navbar {
@@ -63,6 +77,14 @@ padding: 140px;
 
 }
 .thumbnail img{
-    height: 137px;
-    width: 250px;
+    height: 109px;
+    width: 188px;
+}
+.text-big {
+    font-size: 20px;
+
+}
+
+.text-small {
+    font-size: 20px;
 }
