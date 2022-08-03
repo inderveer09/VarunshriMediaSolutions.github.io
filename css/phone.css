@@ -20,8 +20,8 @@
 
 
 #home {
-padding: 121px;  
-    height: 66px;
+padding: 60px;  
+    height: 242px;
 
 }
 
@@ -30,18 +30,18 @@ padding: 121px;
 }
 
 #home p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .h-primary {
-    font-size: 15px;
+    font-size: 18px;
 }
 .h-secondary{
     font-size: 15px;
 }
 
 #home h1 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #services {
@@ -65,7 +65,7 @@ padding: 121px;
    flex-wrap: wrap;
 }
 #clients img {
-   width: 137px;
+   width: 140px;
    padding: 0px 4px;
 }
 .client-item {

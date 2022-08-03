@@ -170,12 +170,13 @@
 
 
 .text-big {
-    font-size: 30px;
-
+    font-size: 32px;
+    margin: 10px 268px;
 }
 
 .text-small {
-    font-size: 23px;
+    font-size: 25px;
+    margin: 10px 269px;
 }
 
 .secright {
